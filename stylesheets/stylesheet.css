@@ -58,6 +58,7 @@ body {
 
 a {
   color: white;
+   white-space: nowrap; 
 }
 a:hover {
   color: #aaa;
