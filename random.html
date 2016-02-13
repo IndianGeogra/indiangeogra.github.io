@@ -1,28 +1,15 @@
 <!DOCTYPE HTML>
-<?php
-   $urls = array("http://indiangeogra.github.io/1", 
-              "http://indiangeogra.github.io/2"); 
-   $url = $urls[array_rand($urls)];
-   echo $url;
-   //header("Location: http://$url"); 
-   ?>
 
 <html lang="en-US">
 <head>
-  <!--<meta charset="UTF-8">
-  <meta http-equiv="refresh" content="1;url=http://indiangeogra.github.io">
-  <script type="text/javascript">
-    window.location.href = "http://indiangeogra.github.io"
-  </script>-->
-  <title>Page Redirection</title>
+   <script type="text/javascript">
+      var urls = new Array("http://usabilla.com/rate/A", "usabilla.com/rate/B");
+      window.location.href = urls[Math.floor(urls.length*Math.random())];
+   </script>
+   <title>Page Redirection</title>
 </head>
 <body>
-   <?php
-   $urls = array("http://indiangeogra.github.io/1", 
-              "http://indiangeogra.github.io/2"); 
-   $url = $urls[array_rand($urls)];
-   echo $url;
-   ?>
+   Something went wrong... Sorry!
 </body>
   <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
   <!--If you are not redirected automatically, follow <a href='http://indiangeogra.github.io/2/'>this link</a>-->
