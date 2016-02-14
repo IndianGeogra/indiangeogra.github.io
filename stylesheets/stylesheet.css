@@ -90,10 +90,12 @@ header h2 {
   background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
 }
 
+
 .inner {
   width: 620px;
   margin: 0 auto;
 }
+
 
 #container .inner img {
   max-width: 100%;
@@ -316,6 +318,7 @@ li a:hover {
 li {
     display: inline-block;
 }
+
 #nav {
     /*font-family: 'Forum', 'Helvetica Neue', Helvetica, Arial, serif;*/
     font-variant: small-caps;
@@ -323,14 +326,28 @@ li {
     text-align:center;
     background-color:#333;
 }
+
+
+#nav {
+    /*font-family: 'Forum', 'Helvetica Neue', Helvetica, Arial, serif;*/
+    font-variant: small-caps;
+    font-size: 22px;
+    text-align:center;
+    background-color:#333;
+}
+
 #ComicTitle {
     font-family: 'Forum', 'Helvetica Neue', Helvetica, Arial, serif;
     text-align:center;
     margin-bottom: 8px;
     font-size: 32px;
     font-weight: bold;
-    /*color: #d5000d;
-    background-color:#333;*/
+    color: #6d6d6d;
+    /*background-color:#333;*/
+}
+
+#ComicTitle a {
+    color: #6d6d6d;
 }
 
 #comic {
