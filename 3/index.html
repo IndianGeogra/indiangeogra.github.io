@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="https://indiangeogra.github.io/stylesheets/pygment_trac.css" media="screen">
     <link rel="stylesheet" type="text/css" href="https://indiangeogra.github.io/stylesheets/print.css" media="print">
     <link rel="icon" href="https://indiangeogra.github.io/favicon.png">
+    <link  rel="stylesheet" href="https://indiangeogra.github.io/stylesheets/lightbox.css">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -38,8 +39,10 @@
       });
     </script>
 
+
     <div id="container">
       <div class="inner">
+
 
         <header>
           <h1><span 
@@ -51,6 +54,7 @@
           </h1>
           <h2>Фантазия для очевидца с оркестром</h2>
         </header>
+
 
         <section id="main_content">
 
@@ -68,7 +72,14 @@
 	    <li><a href="http://indiangeogra.github.io">&gt;&gt;</a></li>
 	  </div>
 	  <div id="comic">
-	    <img src="https://indiangeogra.github.io/3/comic.png" title="Горячей воды нет и не будет." alt="Ходячий замок Хаула" class="lazyload no-src" />
+	    <a style="color: #303030; padding: 0px 0px 0px 0px;"
+	       href="3/comic.png">
+	    <img src="https://indiangeogra.github.io/3/comic_lazy.png"
+		 width="100%"
+		 data-src="https://indiangeogra.github.io/3/comic_small.png"
+		 class="lazyload blur-up"
+		 title="Горячей воды нет и не будет." alt="Ходячий замок Хаула" class="lazyload no-src" />
+	    </a>
 	  </div>
 	  <div id="nav">
 	    <li><a href="http://indiangeogra.github.io/1">&lt;&lt;</a></li>
@@ -78,15 +89,26 @@
 	    <li><a href="http://indiangeogra.github.io">&gt;&gt;</a></li>
 	  </div>
 
-	  <hr>
+          <div id="ComicTitle">
+	  <a style="color: #6d6d6d;"
+	     href="http://indiangeogra.github.io">
+	    Архив
+	  </a>
+	  </div>
+
+	  <footer>
 
 	  <br />
 	  <center>
+	  <div style="color: #333">
 	  Сослать в наш красный уголок: http://indiangeogra.github.io/3/index.html<br />
 	  Стянуть картинку: http://indiangeogra.github.io/3/comic.png
+	  </div>
 	  </center>
         
       </div>
     </div>
+
+    <script src="javascripts/lightbox-plus-jquery.js"></script>
   </body>
 </html>
