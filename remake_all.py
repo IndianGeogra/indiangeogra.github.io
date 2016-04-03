@@ -108,13 +108,14 @@ for i_noc in range(number_of_comics):
     new_archive_data = new_archive_data.replace(old_line, new_line)
 
     # random
-    old_line = '<!-- ig271828_random -->'
-    new_line = \
-               ''',
+    if i_noc != 0:
+        old_line = '<!-- ig271828_random -->'
+        new_line = \
+                   ''',
                            "http://indiangeogra.github.io/''' + str(info_data[i_noc].nr) + '''"<!-- ig271828_random -->'''
-    new_random_data = new_random_data.replace(old_line, new_line)
+        new_random_data = new_random_data.replace(old_line, new_line)
 
-    shutil.copyfile(str(info_data[-1].nr) + '/index.html', 'index.html')
+        shutil.copyfile(str(info_data[-1].nr) + '/index.html', 'index.html')
 
     
 example_archive = open('archive.html', 'w')
