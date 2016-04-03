@@ -115,7 +115,7 @@ for i_noc in range(number_of_comics):
                            "http://indiangeogra.github.io/''' + str(info_data[i_noc].nr) + '''"/*<!-- ig271828_random -->*/'''
         new_random_data = new_random_data.replace(old_line, new_line)
 
-        shutil.copyfile(str(info_data[-1].nr) + '/index.html', 'index.html')
+shutil.copyfile(str(info_data[-1].nr) + '/index.html', 'index.html')
 
     
 example_archive = open('archive.html', 'w')
