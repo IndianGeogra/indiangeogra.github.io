@@ -10,19 +10,30 @@
     <script type="text/javascript" src='http://indiangeogra.github.io/javascripts/shortcuts.js'></script>
     <script type="text/javascript">
       shortcut.add("Left",function() {
-      window.location.href = 'http://indiangeogra.github.io/15';
+      window.location.href = 'http://indiangeogra.github.io15';
       });
       shortcut.add("Right",function() {
-      window.location.href = 'http://indiangeogra.github.io/17';
+      window.location.href = 'http://indiangeogra.github.io17';
       });
     </script>
 
     <style>
       body {
-        font-family: 'Forum', serif;
-        font-size: 48px;
+      font-family: 'Forum', serif;
+      font-size: 48px;
       }
     </style>
+    
+    <style type="text/css">
+      #share-buttons img {
+      width: 35px;
+      padding: 5px;
+      border: 0;
+      box-shadow: 0;
+      display: inline;
+    }
+    </style>
+	
     <!--<link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>-->
     <link rel="stylesheet" type="text/css" href="https://indiangeogra.github.io/stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="https://indiangeogra.github.io/stylesheets/pygment_trac.css" media="screen">
@@ -30,19 +41,19 @@
     <link rel="icon" href="https://indiangeogra.github.io/favicon.png">
     <link  rel="stylesheet" href="https://indiangeogra.github.io/stylesheets/lightbox.css">
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
     <meta name="msapplication-TileImage" content="favicon.png">
     <title>indian geogra: В городе моем</title>
     
     <script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  	ga('create', 'UA-73773751-1', 'auto');
-  	ga('send', 'pageview');
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-73773751-1', 'auto');
+      ga('send', 'pageview');
     </script>
   </head>
 
@@ -55,10 +66,10 @@
         <header>
           <h1><span 
 		class="pseudolink" 	
-   		onclick="location='http://indiangeogra.github.io'"
-   		onmouseover="" style="cursor: pointer;">
-          	indian geogra
-          	</span>
+   		 onclick="location='http://indiangeogra.github.io'"
+   		 onmouseover="" style="cursor: pointer;">
+              indian geogra
+            </span>
           </h1>
           <h2>С неба про погоду</h2>
         </header>
@@ -83,11 +94,11 @@
 	  <center>
 	    <a style="display: inline; color: #303030; padding: 0px 0px 0px 0px;"
 	       href="https://indiangeogra.github.io/16/comic.png">
-	    <img src="https://indiangeogra.github.io/16/comic_lazy.png"
-		 width="432px"
-		 data-src="https://indiangeogra.github.io/16/comic_small.png"
-		 class="lazyload blur-up"
-		 title="n месяцев назад" alt="В городе моем " class="lazyload no-src" />
+	      <img src="https://indiangeogra.github.io/16/comic_lazy.png"
+		   width="620px"
+		   data-src="https://indiangeogra.github.io/16/comic_small.png"
+		   class="lazyload blur-up"
+		   title="160304" alt="В городе моем " class="lazyload no-src" />
 	    </a>
 	  </center>
 	  </div>
@@ -99,28 +110,47 @@
 	    <li><a style="padding: 12px 8px 12px 8px;" href="http://indiangeogra.github.io">&gt;&gt;</a></li>
 	  </div>
 	  <br />
+
+	  <center>
+	    <!-- I got these buttons from simplesharebuttons.com -->
+	    <div id="share-buttons">
+	      <!-- VK -->
+     	      <a href="http://vkontakte.ru/share.php?url=https://indiangeogra.github.io" target="_blank">
+        	<img src="https://indiangeogra.github.io/vk.png" alt="VK" />
+    	      </a>
+    	      <!-- Facebook -->
+    	      <a href="http://www.facebook.com/sharer.php?u=https://indiangeogra.github.io" target="_blank">
+		<img src="https://indiangeogra.github.io/facebook.png" alt="Facebook" />
+	      </a>
+	      <!-- Twitter -->
+	      <a href="https://twitter.com/share?url=https://indiangeogra.github.io&amp;text=indiangeogra&amp;hashtags=indiangeogra" target="_blank">
+        	<img src="https://indiangeogra.github.io/twitter.png" alt="Twitter" />
+    	      </a>
+    	    </div>
+	  </center>
+	  
+	  <br />
 	  <br />
 
           <div id="ComicTitle">
-	  <a style="color: #6d6d6d;"
-	     href="http://indiangeogra.github.io/archive.html">
-	    Архив
-	  </a>
+	    <a style="color: #6d6d6d;"
+	       href="http://indiangeogra.github.io/archive.html">
+	      Архив
+	    </a>
 	  </div>
 
 	  <footer>
-
-	  <br />
-	  <center>
-	  <div style="color: #333">
-	  Сослать в наш красный уголок: http://indiangeogra.github.io/16/index.html<br />
-	  Стянуть картинку: http://indiangeogra.github.io/16/comic.png
-	  </div>
-	  </center>
-        
+	    <center>
+	      <br />
+	      <div style="color: #333">
+		Сослать в наш красный уголок: http://indiangeogra.github.io/16/index.html<br />
+		Стянуть картинку: http://indiangeogra.github.io/16/comic.png
+	      </div>
+	    </center>
+          </footer>
       </div>
     </div>
-
+    
     <script src="javascripts/lightbox-plus-jquery.js"></script>
   </body>
 </html>
