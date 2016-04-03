@@ -109,10 +109,10 @@ for i_noc in range(number_of_comics):
 
     # random
     if i_noc != 0:
-        old_line = '<!-- ig271828_random -->'
+        old_line = '/*<!-- ig271828_random -->*/'
         new_line = \
                    ''',
-                           "http://indiangeogra.github.io/''' + str(info_data[i_noc].nr) + '''"<!-- ig271828_random -->'''
+                           "http://indiangeogra.github.io/''' + str(info_data[i_noc].nr) + '''"/*<!-- ig271828_random -->*/'''
         new_random_data = new_random_data.replace(old_line, new_line)
 
         shutil.copyfile(str(info_data[-1].nr) + '/index.html', 'index.html')
