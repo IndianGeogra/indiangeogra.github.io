@@ -102,11 +102,12 @@ for i_noc in range(number_of_comics):
                '''
           <!-- Начало новой ссылки -->
 	  <a style="display: inline; padding: 0px 0px 0px 0px;" 
-	     href="''' + str(info_data[i_noc].nr) + '''/index.html">
+	     href="''' + str(info_data[i_noc].nr) + '''/comic.png" data-lightbox="comic" data-title="''' + info_data[i_noc].name + '''"
+	     rel="lightbox[comic]">
 	    	    <img src="https://indiangeogra.github.io/''' + str(info_data[i_noc].nr) + '''/comic_lazy.png"
 			 width="140px;"
 			 title="''' + info_data[i_noc].name + '''" alt="''' + info_data[i_noc].name + '''" />
-	  </a>
+	  </a></br>
           <!-- Kонец новой ссылки -->
 
 	  <!-- ig271828_archive -->'''

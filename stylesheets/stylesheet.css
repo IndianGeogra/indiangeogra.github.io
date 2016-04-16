@@ -320,6 +320,13 @@ li {
     display: inline-block;
 }
 
+
+#my_div {
+    width: 200px;
+    padding: 25px;
+    margin: 25px;
+}
+
 #nav {
     /*font-family: 'Forum', 'Helvetica Neue', Helvetica, Arial, serif;*/
     font-variant: small-caps;
