@@ -73,21 +73,21 @@ for i_noc in range(number_of_comics):
     # First comic is different
     if i_noc == 0:
         old_line = '<li><a style="padding: 12px 8px 12px 8px;" rel="prev" href="../1/" accesskey="p">&lt; Tуда</a></li>'
-        new_line = '<li "padding: 12px 8px 12px 8px;"> &lt; Tуда </li>'
+        new_line = '<li> &lt; Tуда </li>'
         newdata = newdata.replace(old_line, new_line)
 
         old_line = '<li><a style="padding: 12px 8px 12px 8px;" href="http://indiangeogra.github.io/1">&lt;&lt;</a></li>'
-        new_line = '<li "padding: 12px 8px 12px 8px;"> &lt; &lt; </li>'
+        new_line = '<li> &lt; &lt; </li>'
         newdata = newdata.replace(old_line, new_line)
 
     # And the last, too
     if i_noc == number_of_comics - 1:
         old_line = '<li><a style="padding: 12px 8px 12px 8px;" rel="next" href="../' + str(number_of_comics) + '/" accesskey="n">Сюда &gt;</a></li>'
-        new_line = '<li "padding: 12px 8px 12px 8px;"> Сюда &gt; </li>'
+        new_line = '<li> Сюда &gt; </li>'
         newdata = newdata.replace(old_line, new_line)
 
         old_line = '<li><a style="padding: 12px 8px 12px 8px;" href="http://indiangeogra.github.io">&gt;&gt;</a></li>'
-        new_line = '<li "padding: 12px 8px 12px 8px;"> &gt; &gt; </li>'
+        new_line = '<li> &gt; &gt; </li>'
         newdata = newdata.replace(old_line, new_line)
 
 
