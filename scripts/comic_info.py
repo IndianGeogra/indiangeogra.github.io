@@ -53,7 +53,11 @@ info_data = [\
              Comic(27, u'Конец марта', '160320', 'v'),
              Comic(28, u'Depeche Mode', '151129', 'h'),
              Comic(29, u'До Драмтеатра', '160325', 'v'),
-             Comic(30, u'Мост', '160325', 'h', True),
+             Comic(30, u'Мост', '160325', 'h'),
+
+             Comic(31, u'В подворотне', '130416', 'h'),
+             Comic(32, u'Даль', '****13', 'h'),
+             Comic(33, u'Конец апреля', '150416', 'v', True),
 ]
 
 number_of_comics = len(info_data)
