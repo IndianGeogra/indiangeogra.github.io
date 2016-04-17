@@ -87,7 +87,7 @@ for i_noc in range(number_of_comics):
         newdata = newdata.replace(old_line, new_line)
 
         old_line = '<li><a style="padding: 12px 8px 12px 8px;" href="http://indiangeogra.github.io">&gt;&gt;</a></li>'
-        new_line = '<li> &gt; &gt; </li>'
+        new_line = '<li> &gt;&gt; </li>'
         newdata = newdata.replace(old_line, new_line)
 
 
